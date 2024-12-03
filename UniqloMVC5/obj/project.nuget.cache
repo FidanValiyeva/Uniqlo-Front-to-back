@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "z25P8HC3d2o=",
+  "dgSpecHash": "bNyDguZt9ow=",
   "success": true,
-  "projectFilePath": "C:\\Users\\ASUS\\Desktop\\UniqloMVC5\\UniqloMVC5\\UniqloMVC5\\UniqloMVC5.csproj",
+  "projectFilePath": "C:\\Users\\ASUS\\Desktop\\UniqloMVC\\UniqloMVC5\\UniqloMVC5\\UniqloMVC5.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ASUS\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

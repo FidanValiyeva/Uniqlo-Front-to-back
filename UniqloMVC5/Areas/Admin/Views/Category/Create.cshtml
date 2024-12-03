@@ -1,0 +1,22 @@
+﻿@model CategoryCreateVM
+
+@{
+	ViewData["Title"] = "Create";
+}
+    <div class="container">
+	<form method="post" enctype="multipart/form-data">
+		
+		<div class="mb-3">
+			<label asp-for="Name" class="form-label"></label>
+			<input asp-for="Name" class="form-control" >
+			<span asp-validation-for="Name"></span>
+			
+		</div>
+		<div class="mb-3">
+			<label asp-for="File" class="form-label"></label>
+			<input asp-for="File" class="form-control">
+			<span asp-validation-for="File"></span>
+		</div>
+		<button  class="btn btn-success">Create</button>
+	</form>
+	</div>

@@ -1,0 +1,66 @@
+﻿@using UniqloMVC5.Models
+@model List<Product>
+@{
+	ViewData["Title"] = "Index";
+}
+<div class="card shadow mb-4">
+    <div class="card-header py-3">
+        <h6 class="m-0 font-weight-bold text-primary">Product List</h6>
+        <a asp-action="Create" asp-controller="Product" class="btn btn-outline-primary ml-auto">Create Product</a>
+    </div>
+    <div class="card-body">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Image</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Category</th>
+                    <th scope="col">CostPrice</th>
+                    <th scope="col">SellPrice</th>
+                    <th scope="col">DisCount</th>
+                    <th scope="col">Quantity</th>
+                    <th colspan="3" scope="col">Action</th>
+
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+
+                        <td>@item.Id</td>
+                        <td>@item.Name</td>
+                        <td><img src="~/imgs/products/@item.CoverImage" width="50" /></td>
+                        <td>@item.Category?.Name</td>
+                        <td>@item.CostPrice </td>
+                        <td>@item.SellPrice </td>
+                        <td>@item.Discount </td>
+                        <td>@item.Quantity </td>
+                        <td>
+                            <a class="btn btn-success" asp-action="Update" asp-controller="Product"  asp-route-id="@item.Id">Update</a>
+
+                        </td>
+                        <td>
+                            <a class="btn btn-danger" asp-action="Delete" asp-controller="Product" asp-route-id="@item.Id">Delete</a>
+
+                        </td>
+                        <td>
+                            <a class="btn btn-warning" asp-action="Hide" asp-controller="Product" asp-route-id="@item.Id">Hide</a>
+
+                        </td>
+                        @if(item.IsDeleted==false)
+                        {
+                            <td><a class="btn btn-secondary" asp-action="Hide" asp-controller="Product" asp-controller="Product" asp-all-route-id="@item.Id">Hide</a></td>
+                        }
+                        else
+                        {
+                           <td> <a class="btn btn-warning" asp-action="Show" asp-controller="Product"asp-route-id="@item.Id">Show</a></td>
+                        }
+                    </tr>
+
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

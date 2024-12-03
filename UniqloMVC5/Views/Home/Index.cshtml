@@ -1,4 +1,5 @@
-﻿@{
+﻿@model HomeVM
+@{
     Layout="_Layout";
     ViewData["Title"] = "Ana Sehife";
 }
@@ -8,7 +9,29 @@
 <html class="no-js" lang="zxx">
         <!-- Start Slider Area -->
         <div class="slider__container slider--four">
-            <div class="slider__activation__wrap owl-carousel owl-theme">
+            <div class="slider__activation__wrap owl-carousel owl-theme">     
+                @foreach (var item in Model.Sliders)
+        {
+            <!-- Start Single Slide -->
+            <div class="slide slider__fixed--height" style="background: rgba(0, 0, 0, 0) url(../imgs/sliders/@item.ImageUrl) no-repeat scroll center center / cover ;">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-9 offset-sm-3 col-md-6 offset-md-6 col-lg-5 offset-lg-7">
+                            <div class="slider__content">
+                                <div class="slider__inner">
+                                    <h1>@item.Title</h1>
+                                    <h4>@item.Subtitle</h4>
+                                    <div class="slider__btn">
+                                        <a class="htc__btn" href="cart.html">shop now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Single Slide -->
+        }
                 <!-- Start Single Slide -->
                 <div class="slide slider__fixed--height" style="background: rgba(0, 0, 0, 0) url(images/slider/bg/3.jpg) no-repeat scroll center center / cover ;">
                     <div class="container">
@@ -135,31 +158,35 @@
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="popular__product__container product__list clearfix">
-                                    <!-- Start Single Product -->
-                                    <div class="single__pro cat--2 cat--4">
-                                        <div class="product">
-                                            <div class="product__inner">
-                                                <div class="pro__thumb">
-                                                    <a href="#">
-                                                        <img src="~/assets/images/popular-pro-2/1.jpg" alt="product images">
-                                                    </a>
-                                                </div>
-                                                <div class="popular__product__hover__info">
-                                                    <ul class="product__action">
-                                                        <li><a title="Add To Wishlist" href="wishlist.html"><span class="ti-heart"></span></a></li>
-                                                        <li><a data-bs-toggle="modal" data-bs-target="#productModal" title="Quick View" class="quick-view modal-view detail-link" href="#"><span class="ti-plus"></span></a></li>
-                                                        <li><a title="Add To Cart" href="cart.html"><span class="ti-shopping-cart"></span></a></li>
-                                                    </ul>
-                                                </div>
+                                    @foreach ( var item in Model.Products)
+                            {
+                                <!-- Start Single Product -->
+                                <div class="single__pro cat--2 cat--4">
+                                    <div class="product">
+                                        <div class="product__inner">
+                                            <div class="pro__thumb">
+                                                <a href="#">
+                                                    <img src="~/imgs/products/@item.ImageUrl" alt="product images">
+                                                </a>
                                             </div>
-                                            <div class="product__details">
-                                                <h2><a href="product-details.html">Simple Black Clock</a></h2>
-                                                <span class="popular__pro__prize">$16.00</span>
+                                            <div class="popular__product__hover__info">
+                                                <ul class="product__action">
+                                                    <li><a title="Add To Wishlist" href="wishlist.html"><span class="ti-heart"></span></a></li>
+                                                    <li><a data-bs-toggle="modal" data-bs-target="#productModal" title="Quick View" class="quick-view modal-view detail-link" href="#"><span class="ti-plus"></span></a></li>
+                                                    <li><a title="Add To Cart" href="cart.html"><span class="ti-shopping-cart"></span></a></li>
+                                                </ul>
                                             </div>
                                         </div>
+                                        <div class="product__details">
+                                            <h2><a href="product-details.html">@item.Name</a></h2>
+                                            <span class="popular__pro__prize">@item.SellPrice</span>
+                                        </div>
                                     </div>
-                                    <!-- End Single Product -->
-                                    <!-- Start Single Product -->
+                                </div>
+                                <!-- End Single Product -->
+                            }
+                                    
+                                    @* <!-- Start Single Product -->
                                     <div class="single__pro cat--3">
                                         <div class="product">
                                             <div class="product__inner">
@@ -374,7 +401,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <!-- End Single Product -->
+                                    <!-- End Single Product --> *@
                                 </div>
                             </div>
                         </div>
