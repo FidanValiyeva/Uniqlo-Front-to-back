@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿
+using System.ComponentModel.DataAnnotations;
 
 namespace UniqloMVC5.ViewModels.Slider
 {
@@ -9,7 +10,7 @@ namespace UniqloMVC5.ViewModels.Slider
         [MaxLength(64), Required]
         public string Subtitle { get; set; }
         public string? Link { get; set; }
-        [Required]
-        public IFormFile File { get; set; }
+        public IFormFile? File { get; set; }
+        public string ImageUrl {  get; set; }
     }
 }
