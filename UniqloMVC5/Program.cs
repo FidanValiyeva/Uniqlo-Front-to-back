@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
 using UniqloMVC5.DataAccess;
+using UniqloMVC5.Extensions;
 using UniqloMVC5.Models;
 
 namespace UniqloMVC5
@@ -33,15 +34,23 @@ namespace UniqloMVC5
                 opt.Lockout.MaxFailedAccessAttempts = 5;
                 opt.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(15);
             }).AddDefaultTokenProviders().AddEntityFrameworkStores<UniqloDbContext>();
-
+            builder.Services.ConfigureApplicationCookie(x =>
+            {
+                x.AccessDeniedPath = "/Home/AccessDenied";
+               
+            });
 
 
             var app = builder.Build();
             app.UseStaticFiles();
 
+            app.UseUserSeed();
+
             app.MapControllerRoute(name: "register",
                 pattern: "register",
                 defaults: new { controller = "Account", action = "Register" });
+
+            
 
 
             app.MapControllerRoute(

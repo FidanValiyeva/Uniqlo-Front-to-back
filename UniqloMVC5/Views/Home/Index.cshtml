@@ -165,7 +165,7 @@
                                     <div class="product">
                                         <div class="product__inner">
                                             <div class="pro__thumb">
-                                                <a href="#">
+                                                <a asp-action="Details" asp-controller="Product" asp-route-id="@item.Id"> 
                                                     <img src="~/imgs/products/@item.ImageUrl" alt="product images">
                                                 </a>
                                             </div>
@@ -178,8 +178,20 @@
                                             </div>
                                         </div>
                                         <div class="product__details">
-                                            <h2><a href="product-details.html">@item.Name</a></h2>
-                                            <span class="popular__pro__prize">@item.SellPrice</span>
+                                            <h2><a asp-action="Details" asp-controller="Product" asp-route-id="@item.Id">@item.Name</a></h2>
+                                            @if(item.IsInStock)
+                                            {
+                                                if (item.DisCount>0)
+                                                {
+                                                    <span class="text-danger">$@(item.SellPrice-item.SellPrice*item.DisCount/100)</span>
+                                                }
+
+                                                else
+                                                {
+                                                    <span class="text-danger">$@item.SellPrice</span>
+                                                }
+                                            }
+                                          
                                         </div>
                                     </div>
                                 </div>

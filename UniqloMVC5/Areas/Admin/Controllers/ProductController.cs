@@ -1,14 +1,17 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
 using Microsoft.EntityFrameworkCore;
 using UniqloMVC5.DataAccess;
 using UniqloMVC5.Extensions;
+using UniqloMVC5.Helpers;
 using UniqloMVC5.Models;
 using UniqloMVC5.ViewModels.Product;
 
 namespace UniqloMVC5.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles = RoleConstants.Product)]
     public class ProductController(IWebHostEnvironment _env, UniqloDbContext _context) : Controller
     {
         public async Task<IActionResult> Index()

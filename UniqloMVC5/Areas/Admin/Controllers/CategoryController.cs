@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using UniqloMVC5.DataAccess;
 using UniqloMVC5.ViewModels.Category;
@@ -7,6 +8,7 @@ using UniqloMVC5.ViewModels.Slider;
 namespace UniqloMVC5.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize]
     public class CategoryController(UniqloDbContext _context, IWebHostEnvironment _env) : Controller
     {
         public async Task<IActionResult> Index()

@@ -58,6 +58,10 @@ namespace UniqloMVC5.Controllers
         {
             return View();
         }
+        public async Task<IActionResult> AccessDenied()
+        {
+            return View();
+        }
        
 
 

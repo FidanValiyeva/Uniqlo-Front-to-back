@@ -1,8 +1,10 @@
-﻿using Microsoft.AspNetCore.Hosting;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
 using Microsoft.EntityFrameworkCore;
 using UniqloMVC5.DataAccess;
+using UniqloMVC5.Helpers;
 using UniqloMVC5.Models;
 using UniqloMVC5.ViewModel.Slider;
 using UniqloMVC5.ViewModels.Product;
@@ -11,6 +13,7 @@ using UniqloMVC5.ViewModels.Slider;
 namespace UniqloMVC5.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles =RoleConstants.Slider)]
     public class SliderController(UniqloDbContext _context, IWebHostEnvironment _env) : Controller
     {
 
@@ -124,7 +127,16 @@ namespace UniqloMVC5.Areas.Admin.Controllers
             return RedirectToAction(nameof(Index));
 
         }
+        public async Task<IActionResult> Delete(int? id)
+        {
+            if (!id.HasValue) return BadRequest();
+            var data = await _context.Sliders.FindAsync(id);
+            if (data is null) return NotFound();
+            _context.Sliders.Remove(data);
+            await _context.SaveChangesAsync();
 
+            return RedirectToAction(nameof(Index));
+        }
     }
 
 

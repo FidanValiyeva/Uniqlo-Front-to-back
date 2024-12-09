@@ -6,7 +6,7 @@ namespace UniqloMVC5.Models
     {
       public string FullName {  get; set; }
       public string ProfileImageUrl {  get; set; }
-
+        
 
     }
 }
