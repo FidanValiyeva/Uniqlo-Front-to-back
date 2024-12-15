@@ -3,28 +3,80 @@
   "WorkspaceRootPath": "C:\\Users\\ASUS\\Desktop\\UniqloMVC\\UniqloMVC5\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{053FF5FE-F2AB-49CE-99B2-54C1C5993A60}|UniqloMVC5\\UniqloMVC5.csproj|c:\\users\\asus\\desktop\\uniqlomvc\\uniqlomvc5\\uniqlomvc5\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{053FF5FE-F2AB-49CE-99B2-54C1C5993A60}|UniqloMVC5\\UniqloMVC5.csproj|solutionrelative:uniqlomvc5\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{053FF5FE-F2AB-49CE-99B2-54C1C5993A60}|UniqloMVC5\\UniqloMVC5.csproj|c:\\users\\asus\\desktop\\uniqlomvc\\uniqlomvc5\\uniqlomvc5\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{053FF5FE-F2AB-49CE-99B2-54C1C5993A60}|UniqloMVC5\\UniqloMVC5.csproj|solutionrelative:uniqlomvc5\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{053FF5FE-F2AB-49CE-99B2-54C1C5993A60}|UniqloMVC5\\UniqloMVC5.csproj|c:\\users\\asus\\desktop\\uniqlomvc\\uniqlomvc5\\uniqlomvc5\\services\\abstracts\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{053FF5FE-F2AB-49CE-99B2-54C1C5993A60}|UniqloMVC5\\UniqloMVC5.csproj|solutionrelative:uniqlomvc5\\services\\abstracts\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{053FF5FE-F2AB-49CE-99B2-54C1C5993A60}|UniqloMVC5\\UniqloMVC5.csproj|c:\\users\\asus\\desktop\\uniqlomvc\\uniqlomvc5\\uniqlomvc5\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{053FF5FE-F2AB-49CE-99B2-54C1C5993A60}|UniqloMVC5\\UniqloMVC5.csproj|solutionrelative:uniqlomvc5\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{053FF5FE-F2AB-49CE-99B2-54C1C5993A60}|UniqloMVC5\\UniqloMVC5.csproj|c:\\users\\asus\\desktop\\uniqlomvc\\uniqlomvc5\\uniqlomvc5\\services\\implements\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{053FF5FE-F2AB-49CE-99B2-54C1C5993A60}|UniqloMVC5\\UniqloMVC5.csproj|solutionrelative:uniqlomvc5\\services\\implements\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{053FF5FE-F2AB-49CE-99B2-54C1C5993A60}|UniqloMVC5\\UniqloMVC5.csproj|c:\\users\\asus\\desktop\\uniqlomvc\\uniqlomvc5\\uniqlomvc5\\viewmodels\\basket\\productitemvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{053FF5FE-F2AB-49CE-99B2-54C1C5993A60}|UniqloMVC5\\UniqloMVC5.csproj|solutionrelative:uniqlomvc5\\viewmodels\\basket\\productitemvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{053FF5FE-F2AB-49CE-99B2-54C1C5993A60}|UniqloMVC5\\UniqloMVC5.csproj|c:\\users\\asus\\desktop\\uniqlomvc\\uniqlomvc5\\uniqlomvc5\\views\\shared\\components\\header\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{053FF5FE-F2AB-49CE-99B2-54C1C5993A60}|UniqloMVC5\\UniqloMVC5.csproj|solutionrelative:uniqlomvc5\\views\\shared\\components\\header\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{053FF5FE-F2AB-49CE-99B2-54C1C5993A60}|UniqloMVC5\\UniqloMVC5.csproj|c:\\users\\asus\\desktop\\uniqlomvc\\uniqlomvc5\\uniqlomvc5\\viewcomponents\\headerviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{053FF5FE-F2AB-49CE-99B2-54C1C5993A60}|UniqloMVC5\\UniqloMVC5.csproj|solutionrelative:uniqlomvc5\\viewcomponents\\headerviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{053FF5FE-F2AB-49CE-99B2-54C1C5993A60}|UniqloMVC5\\UniqloMVC5.csproj|c:\\users\\asus\\desktop\\uniqlomvc\\uniqlomvc5\\uniqlomvc5\\dataaccess\\uniqlodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{053FF5FE-F2AB-49CE-99B2-54C1C5993A60}|UniqloMVC5\\UniqloMVC5.csproj|solutionrelative:uniqlomvc5\\dataaccess\\uniqlodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{053FF5FE-F2AB-49CE-99B2-54C1C5993A60}|UniqloMVC5\\UniqloMVC5.csproj|c:\\users\\asus\\desktop\\uniqlomvc\\uniqlomvc5\\uniqlomvc5\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{053FF5FE-F2AB-49CE-99B2-54C1C5993A60}|UniqloMVC5\\UniqloMVC5.csproj|solutionrelative:uniqlomvc5\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{053FF5FE-F2AB-49CE-99B2-54C1C5993A60}|UniqloMVC5\\UniqloMVC5.csproj|c:\\users\\asus\\desktop\\uniqlomvc\\uniqlomvc5\\uniqlomvc5\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{053FF5FE-F2AB-49CE-99B2-54C1C5993A60}|UniqloMVC5\\UniqloMVC5.csproj|solutionrelative:uniqlomvc5\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{053FF5FE-F2AB-49CE-99B2-54C1C5993A60}|UniqloMVC5\\UniqloMVC5.csproj|c:\\users\\asus\\desktop\\uniqlomvc\\uniqlomvc5\\uniqlomvc5\\uniqlomvc5.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{053FF5FE-F2AB-49CE-99B2-54C1C5993A60}|UniqloMVC5\\UniqloMVC5.csproj|solutionrelative:uniqlomvc5\\uniqlomvc5.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{053FF5FE-F2AB-49CE-99B2-54C1C5993A60}|UniqloMVC5\\UniqloMVC5.csproj|c:\\users\\asus\\desktop\\uniqlomvc\\uniqlomvc5\\uniqlomvc5\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{053FF5FE-F2AB-49CE-99B2-54C1C5993A60}|UniqloMVC5\\UniqloMVC5.csproj|solutionrelative:uniqlomvc5\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{053FF5FE-F2AB-49CE-99B2-54C1C5993A60}|UniqloMVC5\\UniqloMVC5.csproj|c:\\users\\asus\\desktop\\uniqlomvc\\uniqlomvc5\\uniqlomvc5\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{053FF5FE-F2AB-49CE-99B2-54C1C5993A60}|UniqloMVC5\\UniqloMVC5.csproj|solutionrelative:uniqlomvc5\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{053FF5FE-F2AB-49CE-99B2-54C1C5993A60}|UniqloMVC5\\UniqloMVC5.csproj|c:\\users\\asus\\desktop\\uniqlomvc\\uniqlomvc5\\uniqlomvc5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{053FF5FE-F2AB-49CE-99B2-54C1C5993A60}|UniqloMVC5\\UniqloMVC5.csproj|solutionrelative:uniqlomvc5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{053FF5FE-F2AB-49CE-99B2-54C1C5993A60}|UniqloMVC5\\UniqloMVC5.csproj|c:\\users\\asus\\desktop\\uniqlomvc\\uniqlomvc5\\uniqlomvc5\\viewmodels\\basket\\basketproductitemvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{053FF5FE-F2AB-49CE-99B2-54C1C5993A60}|UniqloMVC5\\UniqloMVC5.csproj|solutionrelative:uniqlomvc5\\viewmodels\\basket\\basketproductitemvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{053FF5FE-F2AB-49CE-99B2-54C1C5993A60}|UniqloMVC5\\UniqloMVC5.csproj|c:\\users\\asus\\desktop\\uniqlomvc\\uniqlomvc5\\uniqlomvc5\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{053FF5FE-F2AB-49CE-99B2-54C1C5993A60}|UniqloMVC5\\UniqloMVC5.csproj|solutionrelative:uniqlomvc5\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{053FF5FE-F2AB-49CE-99B2-54C1C5993A60}|UniqloMVC5\\UniqloMVC5.csproj|c:\\users\\asus\\desktop\\uniqlomvc\\uniqlomvc5\\uniqlomvc5\\helpers\\smtpoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{053FF5FE-F2AB-49CE-99B2-54C1C5993A60}|UniqloMVC5\\UniqloMVC5.csproj|solutionrelative:uniqlomvc5\\helpers\\smtpoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{053FF5FE-F2AB-49CE-99B2-54C1C5993A60}|UniqloMVC5\\UniqloMVC5.csproj|c:\\users\\asus\\desktop\\uniqlomvc\\uniqlomvc5\\uniqlomvc5\\services\\implements\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{053FF5FE-F2AB-49CE-99B2-54C1C5993A60}|UniqloMVC5\\UniqloMVC5.csproj|solutionrelative:uniqlomvc5\\services\\implements\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{053FF5FE-F2AB-49CE-99B2-54C1C5993A60}|UniqloMVC5\\UniqloMVC5.csproj|c:\\users\\asus\\desktop\\uniqlomvc\\uniqlomvc5\\uniqlomvc5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{053FF5FE-F2AB-49CE-99B2-54C1C5993A60}|UniqloMVC5\\UniqloMVC5.csproj|solutionrelative:uniqlomvc5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{053FF5FE-F2AB-49CE-99B2-54C1C5993A60}|UniqloMVC5\\UniqloMVC5.csproj|c:\\users\\asus\\desktop\\uniqlomvc\\uniqlomvc5\\uniqlomvc5\\services\\abstracts\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{053FF5FE-F2AB-49CE-99B2-54C1C5993A60}|UniqloMVC5\\UniqloMVC5.csproj|solutionrelative:uniqlomvc5\\services\\abstracts\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{053FF5FE-F2AB-49CE-99B2-54C1C5993A60}|UniqloMVC5\\UniqloMVC5.csproj|c:\\users\\asus\\desktop\\uniqlomvc\\uniqlomvc5\\uniqlomvc5\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{053FF5FE-F2AB-49CE-99B2-54C1C5993A60}|UniqloMVC5\\UniqloMVC5.csproj|solutionrelative:uniqlomvc5\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{053FF5FE-F2AB-49CE-99B2-54C1C5993A60}|UniqloMVC5\\UniqloMVC5.csproj|c:\\users\\asus\\desktop\\uniqlomvc\\uniqlomvc5\\uniqlomvc5\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{053FF5FE-F2AB-49CE-99B2-54C1C5993A60}|UniqloMVC5\\UniqloMVC5.csproj|solutionrelative:uniqlomvc5\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{053FF5FE-F2AB-49CE-99B2-54C1C5993A60}|UniqloMVC5\\UniqloMVC5.csproj|c:\\users\\asus\\desktop\\uniqlomvc\\uniqlomvc5\\uniqlomvc5\\helpers\\roleconstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -33,14 +85,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{053FF5FE-F2AB-49CE-99B2-54C1C5993A60}|UniqloMVC5\\UniqloMVC5.csproj|c:\\users\\asus\\desktop\\uniqlomvc\\uniqlomvc5\\uniqlomvc5\\helpers\\emailtemplates.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{053FF5FE-F2AB-49CE-99B2-54C1C5993A60}|UniqloMVC5\\UniqloMVC5.csproj|solutionrelative:uniqlomvc5\\helpers\\emailtemplates.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{053FF5FE-F2AB-49CE-99B2-54C1C5993A60}|UniqloMVC5\\UniqloMVC5.csproj|c:\\users\\asus\\desktop\\uniqlomvc\\uniqlomvc5\\uniqlomvc5\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{053FF5FE-F2AB-49CE-99B2-54C1C5993A60}|UniqloMVC5\\UniqloMVC5.csproj|solutionrelative:uniqlomvc5\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{053FF5FE-F2AB-49CE-99B2-54C1C5993A60}|UniqloMVC5\\UniqloMVC5.csproj|c:\\users\\asus\\desktop\\uniqlomvc\\uniqlomvc5\\uniqlomvc5\\uniqlomvc5.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{053FF5FE-F2AB-49CE-99B2-54C1C5993A60}|UniqloMVC5\\UniqloMVC5.csproj|solutionrelative:uniqlomvc5\\uniqlomvc5.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{053FF5FE-F2AB-49CE-99B2-54C1C5993A60}|UniqloMVC5\\UniqloMVC5.csproj|c:\\users\\asus\\desktop\\uniqlomvc\\uniqlomvc5\\uniqlomvc5\\models\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -55,16 +99,8 @@
       "RelativeMoniker": "D:0:0:{053FF5FE-F2AB-49CE-99B2-54C1C5993A60}|UniqloMVC5\\UniqloMVC5.csproj|solutionrelative:uniqlomvc5\\models\\productratings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{053FF5FE-F2AB-49CE-99B2-54C1C5993A60}|UniqloMVC5\\UniqloMVC5.csproj|c:\\users\\asus\\desktop\\uniqlomvc\\uniqlomvc5\\uniqlomvc5\\dataaccess\\uniqlodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{053FF5FE-F2AB-49CE-99B2-54C1C5993A60}|UniqloMVC5\\UniqloMVC5.csproj|solutionrelative:uniqlomvc5\\dataaccess\\uniqlodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{053FF5FE-F2AB-49CE-99B2-54C1C5993A60}|UniqloMVC5\\UniqloMVC5.csproj|c:\\users\\asus\\desktop\\uniqlomvc\\uniqlomvc5\\uniqlomvc5\\views\\product\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{053FF5FE-F2AB-49CE-99B2-54C1C5993A60}|UniqloMVC5\\UniqloMVC5.csproj|solutionrelative:uniqlomvc5\\views\\product\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{053FF5FE-F2AB-49CE-99B2-54C1C5993A60}|UniqloMVC5\\UniqloMVC5.csproj|c:\\users\\asus\\desktop\\uniqlomvc\\uniqlomvc5\\uniqlomvc5\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{053FF5FE-F2AB-49CE-99B2-54C1C5993A60}|UniqloMVC5\\UniqloMVC5.csproj|solutionrelative:uniqlomvc5\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{053FF5FE-F2AB-49CE-99B2-54C1C5993A60}|UniqloMVC5\\UniqloMVC5.csproj|c:\\users\\asus\\desktop\\uniqlomvc\\uniqlomvc5\\uniqlomvc5\\models\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -95,28 +131,12 @@
       "RelativeMoniker": "D:0:0:{053FF5FE-F2AB-49CE-99B2-54C1C5993A60}|UniqloMVC5\\UniqloMVC5.csproj|solutionrelative:uniqlomvc5\\models\\slider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{053FF5FE-F2AB-49CE-99B2-54C1C5993A60}|UniqloMVC5\\UniqloMVC5.csproj|c:\\users\\asus\\desktop\\uniqlomvc\\uniqlomvc5\\uniqlomvc5\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{053FF5FE-F2AB-49CE-99B2-54C1C5993A60}|UniqloMVC5\\UniqloMVC5.csproj|solutionrelative:uniqlomvc5\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{053FF5FE-F2AB-49CE-99B2-54C1C5993A60}|UniqloMVC5\\UniqloMVC5.csproj|c:\\users\\asus\\desktop\\uniqlomvc\\uniqlomvc5\\uniqlomvc5\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{053FF5FE-F2AB-49CE-99B2-54C1C5993A60}|UniqloMVC5\\UniqloMVC5.csproj|solutionrelative:uniqlomvc5\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{053FF5FE-F2AB-49CE-99B2-54C1C5993A60}|UniqloMVC5\\UniqloMVC5.csproj|c:\\users\\asus\\desktop\\uniqlomvc\\uniqlomvc5\\uniqlomvc5\\areas\\admin\\controllers\\slidercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{053FF5FE-F2AB-49CE-99B2-54C1C5993A60}|UniqloMVC5\\UniqloMVC5.csproj|solutionrelative:uniqlomvc5\\areas\\admin\\controllers\\slidercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{053FF5FE-F2AB-49CE-99B2-54C1C5993A60}|UniqloMVC5\\UniqloMVC5.csproj|c:\\users\\asus\\desktop\\uniqlomvc\\uniqlomvc5\\uniqlomvc5\\viewmodels\\product\\productcreatevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{053FF5FE-F2AB-49CE-99B2-54C1C5993A60}|UniqloMVC5\\UniqloMVC5.csproj|solutionrelative:uniqlomvc5\\viewmodels\\product\\productcreatevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{053FF5FE-F2AB-49CE-99B2-54C1C5993A60}|UniqloMVC5\\UniqloMVC5.csproj|c:\\users\\asus\\desktop\\uniqlomvc\\uniqlomvc5\\uniqlomvc5\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{053FF5FE-F2AB-49CE-99B2-54C1C5993A60}|UniqloMVC5\\UniqloMVC5.csproj|solutionrelative:uniqlomvc5\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{053FF5FE-F2AB-49CE-99B2-54C1C5993A60}|UniqloMVC5\\UniqloMVC5.csproj|c:\\users\\asus\\desktop\\uniqlomvc\\uniqlomvc5\\uniqlomvc5\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{053FF5FE-F2AB-49CE-99B2-54C1C5993A60}|UniqloMVC5\\UniqloMVC5.csproj|solutionrelative:uniqlomvc5\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{053FF5FE-F2AB-49CE-99B2-54C1C5993A60}|UniqloMVC5\\UniqloMVC5.csproj|c:\\users\\asus\\desktop\\uniqlomvc\\uniqlomvc5\\uniqlomvc5\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -262,11 +282,86 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 38,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\UniqloMVC\\UniqloMVC5\\UniqloMVC5\\Views\\Product\\Index.cshtml",
+              "RelativeDocumentMoniker": "UniqloMVC5\\Views\\Product\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\UniqloMVC\\UniqloMVC5\\UniqloMVC5\\Views\\Product\\Index.cshtml",
+              "RelativeToolTip": "UniqloMVC5\\Views\\Product\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-15T22:13:41.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductItemVM.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\UniqloMVC\\UniqloMVC5\\UniqloMVC5\\ViewModels\\Basket\\ProductItemVM.cs",
+              "RelativeDocumentMoniker": "UniqloMVC5\\ViewModels\\Basket\\ProductItemVM.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\UniqloMVC\\UniqloMVC5\\UniqloMVC5\\ViewModels\\Basket\\ProductItemVM.cs",
+              "RelativeToolTip": "UniqloMVC5\\ViewModels\\Basket\\ProductItemVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T21:18:47.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\UniqloMVC\\UniqloMVC5\\UniqloMVC5\\Views\\Shared\\Components\\Header\\Default.cshtml",
+              "RelativeDocumentMoniker": "UniqloMVC5\\Views\\Shared\\Components\\Header\\Default.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\UniqloMVC\\UniqloMVC5\\UniqloMVC5\\Views\\Shared\\Components\\Header\\Default.cshtml",
+              "RelativeToolTip": "UniqloMVC5\\Views\\Shared\\Components\\Header\\Default.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGwAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-15T20:57:49.666Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HeaderViewComponent.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\UniqloMVC\\UniqloMVC5\\UniqloMVC5\\ViewComponents\\HeaderViewComponent.cs",
+              "RelativeDocumentMoniker": "UniqloMVC5\\ViewComponents\\HeaderViewComponent.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\UniqloMVC\\UniqloMVC5\\UniqloMVC5\\ViewComponents\\HeaderViewComponent.cs",
+              "RelativeToolTip": "UniqloMVC5\\ViewComponents\\HeaderViewComponent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T20:48:34.961Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BasketProductItemVM.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\UniqloMVC\\UniqloMVC5\\UniqloMVC5\\ViewModels\\Basket\\BasketProductItemVM.cs",
+              "RelativeDocumentMoniker": "UniqloMVC5\\ViewModels\\Basket\\BasketProductItemVM.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\UniqloMVC\\UniqloMVC5\\UniqloMVC5\\ViewModels\\Basket\\BasketProductItemVM.cs",
+              "RelativeToolTip": "UniqloMVC5\\ViewModels\\Basket\\BasketProductItemVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T17:56:30.774Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "TestController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\UniqloMVC\\UniqloMVC5\\UniqloMVC5\\Controllers\\TestController.cs",
+              "RelativeDocumentMoniker": "UniqloMVC5\\Controllers\\TestController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\UniqloMVC\\UniqloMVC5\\UniqloMVC5\\Controllers\\TestController.cs",
+              "RelativeToolTip": "UniqloMVC5\\Controllers\\TestController.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwB4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T13:49:06.868Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
               "Title": "EmailTemplates.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\UniqloMVC\\UniqloMVC5\\UniqloMVC5\\Helpers\\EmailTemplates.cs",
               "RelativeDocumentMoniker": "UniqloMVC5\\Helpers\\EmailTemplates.cs",
@@ -274,25 +369,23 @@
               "RelativeToolTip": "UniqloMVC5\\Helpers\\EmailTemplates.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAALUAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T09:35:33.032Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-15T09:35:33.032Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 14,
               "Title": "EmailService.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\UniqloMVC\\UniqloMVC5\\UniqloMVC5\\Services\\Implements\\EmailService.cs",
               "RelativeDocumentMoniker": "UniqloMVC5\\Services\\Implements\\EmailService.cs",
               "ToolTip": "C:\\Users\\ASUS\\Desktop\\UniqloMVC\\UniqloMVC5\\UniqloMVC5\\Services\\Implements\\EmailService.cs",
               "RelativeToolTip": "UniqloMVC5\\Services\\Implements\\EmailService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-14T22:29:53.72Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-14T22:29:53.72Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 16,
               "Title": "IEmailService.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\UniqloMVC\\UniqloMVC5\\UniqloMVC5\\Services\\Abstracts\\IEmailService.cs",
               "RelativeDocumentMoniker": "UniqloMVC5\\Services\\Abstracts\\IEmailService.cs",
@@ -300,25 +393,23 @@
               "RelativeToolTip": "UniqloMVC5\\Services\\Abstracts\\IEmailService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-14T22:28:58.023Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-14T22:28:58.023Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 13,
               "Title": "SmtpOptions.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\UniqloMVC\\UniqloMVC5\\UniqloMVC5\\Helpers\\SmtpOptions.cs",
               "RelativeDocumentMoniker": "UniqloMVC5\\Helpers\\SmtpOptions.cs",
               "ToolTip": "C:\\Users\\ASUS\\Desktop\\UniqloMVC\\UniqloMVC5\\UniqloMVC5\\Helpers\\SmtpOptions.cs",
               "RelativeToolTip": "UniqloMVC5\\Helpers\\SmtpOptions.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAgwAkAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-14T21:55:32.461Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-14T21:55:32.461Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 67,
               "Title": "20241214195121_CreatedCommentsTable.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\UniqloMVC\\UniqloMVC5\\UniqloMVC5\\Migrations\\20241214195121_CreatedCommentsTable.cs",
               "RelativeDocumentMoniker": "UniqloMVC5\\Migrations\\20241214195121_CreatedCommentsTable.cs",
@@ -330,7 +421,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 26,
               "Title": "ProductImage.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\UniqloMVC\\UniqloMVC5\\UniqloMVC5\\Models\\ProductImage.cs",
               "RelativeDocumentMoniker": "UniqloMVC5\\Models\\ProductImage.cs",
@@ -342,7 +433,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 21,
               "Title": "Comment.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\UniqloMVC\\UniqloMVC5\\UniqloMVC5\\Models\\Comment.cs",
               "RelativeDocumentMoniker": "UniqloMVC5\\Models\\Comment.cs",
@@ -354,7 +445,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 28,
               "Title": "20241212143955_CreatedProductRatingsTables.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\UniqloMVC\\UniqloMVC5\\UniqloMVC5\\Migrations\\20241212143955_CreatedProductRatingsTables.cs",
               "RelativeDocumentMoniker": "UniqloMVC5\\Migrations\\20241212143955_CreatedProductRatingsTables.cs",
@@ -366,7 +457,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 23,
               "Title": "ProductRatings.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\UniqloMVC\\UniqloMVC5\\UniqloMVC5\\Models\\ProductRatings.cs",
               "RelativeDocumentMoniker": "UniqloMVC5\\Models\\ProductRatings.cs",
@@ -378,7 +469,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 66,
               "Title": "20241212142258_CreatedTagsTable.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\UniqloMVC\\UniqloMVC5\\UniqloMVC5\\Migrations\\20241212142258_CreatedTagsTable.cs",
               "RelativeDocumentMoniker": "UniqloMVC5\\Migrations\\20241212142258_CreatedTagsTable.cs",
@@ -390,7 +481,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 22,
               "Title": "Tag.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\UniqloMVC\\UniqloMVC5\\UniqloMVC5\\Models\\Tag.cs",
               "RelativeDocumentMoniker": "UniqloMVC5\\Models\\Tag.cs",
@@ -402,7 +493,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 37,
               "Title": "About.cshtml",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\UniqloMVC\\UniqloMVC5\\UniqloMVC5\\Views\\Home\\About.cshtml",
               "RelativeDocumentMoniker": "UniqloMVC5\\Views\\Home\\About.cshtml",
@@ -414,7 +505,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 38,
               "Title": "Contact.cshtml",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\UniqloMVC\\UniqloMVC5\\UniqloMVC5\\Views\\Home\\Contact.cshtml",
               "RelativeDocumentMoniker": "UniqloMVC5\\Views\\Home\\Contact.cshtml",
@@ -426,7 +517,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 45,
               "Title": "20241202151151_initial.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\UniqloMVC\\UniqloMVC5\\UniqloMVC5\\Migrations\\20241202151151_initial.cs",
               "RelativeDocumentMoniker": "UniqloMVC5\\Migrations\\20241202151151_initial.cs",
@@ -438,19 +529,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 9,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\UniqloMVC\\UniqloMVC5\\UniqloMVC5\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "UniqloMVC5\\Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\Users\\ASUS\\Desktop\\UniqloMVC\\UniqloMVC5\\UniqloMVC5\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "UniqloMVC5\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAKgAAAAAAAAAAAAAALcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAKoBAAAAAAAAAAAAAMsBAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-12-09T20:47:39.689Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 24,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\UniqloMVC\\UniqloMVC5\\UniqloMVC5\\Views\\Product\\Details.cshtml",
               "RelativeDocumentMoniker": "UniqloMVC5\\Views\\Product\\Details.cshtml",
@@ -462,19 +553,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 1,
               "Title": "ProductController.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\UniqloMVC\\UniqloMVC5\\UniqloMVC5\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "UniqloMVC5\\Controllers\\ProductController.cs",
               "ToolTip": "C:\\Users\\ASUS\\Desktop\\UniqloMVC\\UniqloMVC5\\UniqloMVC5\\Controllers\\ProductController.cs",
               "RelativeToolTip": "UniqloMVC5\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA4AAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T19:33:18.977Z"
+              "WhenOpened": "2024-12-09T19:33:18.977Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 36,
               "Title": "AccessDenied.cshtml",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\UniqloMVC\\UniqloMVC5\\UniqloMVC5\\Views\\Home\\AccessDenied.cshtml",
               "RelativeDocumentMoniker": "UniqloMVC5\\Views\\Home\\AccessDenied.cshtml",
@@ -486,7 +578,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 19,
               "Title": "RoleConstants.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\UniqloMVC\\UniqloMVC5\\UniqloMVC5\\Helpers\\RoleConstants.cs",
               "RelativeDocumentMoniker": "UniqloMVC5\\Helpers\\RoleConstants.cs",
@@ -494,12 +586,11 @@
               "RelativeToolTip": "UniqloMVC5\\Helpers\\RoleConstants.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T17:27:07.205Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-09T17:27:07.205Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 48,
               "Title": "Roles.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\UniqloMVC\\UniqloMVC5\\UniqloMVC5\\Enums\\Roles.cs",
               "RelativeDocumentMoniker": "UniqloMVC5\\Enums\\Roles.cs",
@@ -511,7 +602,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
               "Title": "UniqloMVC5.csproj",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\UniqloMVC\\UniqloMVC5\\UniqloMVC5\\UniqloMVC5.csproj",
               "RelativeDocumentMoniker": "UniqloMVC5\\UniqloMVC5.csproj",
@@ -523,7 +614,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 40,
               "Title": "FileExtension.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\UniqloMVC\\UniqloMVC5\\UniqloMVC5\\Extensions\\FileExtension.cs",
               "RelativeDocumentMoniker": "UniqloMVC5\\Extensions\\FileExtension.cs",
@@ -535,7 +626,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 39,
               "Title": "SeedExtension.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\UniqloMVC\\UniqloMVC5\\UniqloMVC5\\Extensions\\SeedExtension.cs",
               "RelativeDocumentMoniker": "UniqloMVC5\\Extensions\\SeedExtension.cs",
@@ -547,7 +638,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 52,
               "Title": "SliderItemVM.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\UniqloMVC\\UniqloMVC5\\UniqloMVC5\\ViewModels\\Slider\\SliderItemVM.cs",
               "RelativeDocumentMoniker": "UniqloMVC5\\ViewModels\\Slider\\SliderItemVM.cs",
@@ -559,20 +650,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 18,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\UniqloMVC\\UniqloMVC5\\UniqloMVC5\\appsettings.json",
               "RelativeDocumentMoniker": "UniqloMVC5\\appsettings.json",
               "ToolTip": "C:\\Users\\ASUS\\Desktop\\UniqloMVC\\UniqloMVC5\\UniqloMVC5\\appsettings.json",
               "RelativeToolTip": "UniqloMVC5\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-05T13:54:40.813Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-05T13:54:40.813Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 31,
               "Title": "Slider.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\UniqloMVC\\UniqloMVC5\\UniqloMVC5\\Models\\Slider.cs",
               "RelativeDocumentMoniker": "UniqloMVC5\\Models\\Slider.cs",
@@ -584,7 +674,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 51,
               "Title": "LoginCreateVM.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\UniqloMVC\\UniqloMVC5\\UniqloMVC5\\ViewModels\\Auths\\LoginCreateVM.cs",
               "RelativeDocumentMoniker": "UniqloMVC5\\ViewModels\\Auths\\LoginCreateVM.cs",
@@ -596,19 +686,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\UniqloMVC\\UniqloMVC5\\UniqloMVC5\\Views\\Account\\Login.cshtml",
-              "RelativeDocumentMoniker": "UniqloMVC5\\Views\\Account\\Login.cshtml",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\UniqloMVC\\UniqloMVC5\\UniqloMVC5\\Views\\Account\\Login.cshtml",
-              "RelativeToolTip": "UniqloMVC5\\Views\\Account\\Login.cshtml",
-              "ViewState": "AgIAACoAAAAAAAAAAAAAAMQAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-05T07:37:37.035Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 47,
               "Title": "DashboardController.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\UniqloMVC\\UniqloMVC5\\UniqloMVC5\\Areas\\Admin\\Controllers\\DashboardController.cs",
               "RelativeDocumentMoniker": "UniqloMVC5\\Areas\\Admin\\Controllers\\DashboardController.cs",
@@ -620,7 +698,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 55,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\UniqloMVC\\UniqloMVC5\\UniqloMVC5\\Areas\\Admin\\Views\\Slider\\Index.cshtml",
               "RelativeDocumentMoniker": "UniqloMVC5\\Areas\\Admin\\Views\\Slider\\Index.cshtml",
@@ -632,32 +710,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 6,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\UniqloMVC\\UniqloMVC5\\UniqloMVC5\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "UniqloMVC5\\Views\\_ViewImports.cshtml",
               "ToolTip": "C:\\Users\\ASUS\\Desktop\\UniqloMVC\\UniqloMVC5\\UniqloMVC5\\Views\\_ViewImports.cshtml",
               "RelativeToolTip": "UniqloMVC5\\Views\\_ViewImports.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-12-04T15:12:25.866Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 10,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\UniqloMVC\\UniqloMVC5\\UniqloMVC5\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "UniqloMVC5\\Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\ASUS\\Desktop\\UniqloMVC\\UniqloMVC5\\UniqloMVC5\\Controllers\\HomeController.cs",
               "RelativeToolTip": "UniqloMVC5\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T15:12:16.091Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-04T15:12:16.091Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 54,
               "Title": "SliderCreateVM.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\UniqloMVC\\UniqloMVC5\\UniqloMVC5\\ViewModels\\Slider\\SliderCreateVM.cs",
               "RelativeDocumentMoniker": "UniqloMVC5\\ViewModels\\Slider\\SliderCreateVM.cs",
@@ -669,19 +746,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 7,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\UniqloMVC\\UniqloMVC5\\UniqloMVC5\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "UniqloMVC5\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\ASUS\\Desktop\\UniqloMVC\\UniqloMVC5\\UniqloMVC5\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "UniqloMVC5\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAABAAAAAAAAAAAAABABAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACYAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-12-04T15:05:07.819Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 58,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\UniqloMVC\\UniqloMVC5\\UniqloMVC5\\Areas\\Admin\\Views\\Product\\Create.cshtml",
               "RelativeDocumentMoniker": "UniqloMVC5\\Areas\\Admin\\Views\\Product\\Create.cshtml",
@@ -693,7 +770,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 59,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\UniqloMVC\\UniqloMVC5\\UniqloMVC5\\Areas\\Admin\\Views\\Slider\\Create.cshtml",
               "RelativeDocumentMoniker": "UniqloMVC5\\Areas\\Admin\\Views\\Slider\\Create.cshtml",
@@ -705,7 +782,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 56,
               "Title": "UserCreateVM.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\UniqloMVC\\UniqloMVC5\\UniqloMVC5\\ViewModels\\Auths\\UserCreateVM.cs",
               "RelativeDocumentMoniker": "UniqloMVC5\\ViewModels\\Auths\\UserCreateVM.cs",
@@ -717,7 +794,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 34,
               "Title": "Register.cshtml",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\UniqloMVC\\UniqloMVC5\\UniqloMVC5\\Views\\Account\\Register.cshtml",
               "RelativeDocumentMoniker": "UniqloMVC5\\Views\\Account\\Register.cshtml",
@@ -729,33 +806,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 17,
               "Title": "AccountController.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\UniqloMVC\\UniqloMVC5\\UniqloMVC5\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "UniqloMVC5\\Controllers\\AccountController.cs",
               "ToolTip": "C:\\Users\\ASUS\\Desktop\\UniqloMVC\\UniqloMVC5\\UniqloMVC5\\Controllers\\AccountController.cs",
               "RelativeToolTip": "UniqloMVC5\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAG4AAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAAAG4AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T06:05:11.47Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-04T06:05:11.47Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 15,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\UniqloMVC\\UniqloMVC5\\UniqloMVC5\\Program.cs",
               "RelativeDocumentMoniker": "UniqloMVC5\\Program.cs",
               "ToolTip": "C:\\Users\\ASUS\\Desktop\\UniqloMVC\\UniqloMVC5\\UniqloMVC5\\Program.cs",
               "RelativeToolTip": "UniqloMVC5\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAADMAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T05:43:50.24Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-04T05:43:50.24Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 65,
               "Title": "20241204054018_CreatedIdentityTables.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\UniqloMVC\\UniqloMVC5\\UniqloMVC5\\Migrations\\20241204054018_CreatedIdentityTables.cs",
               "RelativeDocumentMoniker": "UniqloMVC5\\Migrations\\20241204054018_CreatedIdentityTables.cs",
@@ -767,7 +842,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 30,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\UniqloMVC\\UniqloMVC5\\UniqloMVC5\\Models\\User.cs",
               "RelativeDocumentMoniker": "UniqloMVC5\\Models\\User.cs",
@@ -779,7 +854,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 53,
               "Title": "SliderDeleteVM.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\UniqloMVC\\UniqloMVC5\\UniqloMVC5\\ViewModels\\Slider\\SliderDeleteVM.cs",
               "RelativeDocumentMoniker": "UniqloMVC5\\ViewModels\\Slider\\SliderDeleteVM.cs",
@@ -791,7 +866,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 41,
               "Title": "ProductDeleteVM.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\UniqloMVC\\UniqloMVC5\\UniqloMVC5\\ViewModels\\Product\\ProductDeleteVM.cs",
               "RelativeDocumentMoniker": "UniqloMVC5\\ViewModels\\Product\\ProductDeleteVM.cs",
@@ -803,7 +878,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 60,
               "Title": "CategoryDeleteVM.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\UniqloMVC\\UniqloMVC5\\UniqloMVC5\\ViewModels\\Category\\CategoryDeleteVM.cs",
               "RelativeDocumentMoniker": "UniqloMVC5\\ViewModels\\Category\\CategoryDeleteVM.cs",
@@ -815,7 +890,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 61,
               "Title": "CategoryCreateVM.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\UniqloMVC\\UniqloMVC5\\UniqloMVC5\\ViewModels\\Category\\CategoryCreateVM.cs",
               "RelativeDocumentMoniker": "UniqloMVC5\\ViewModels\\Category\\CategoryCreateVM.cs",
@@ -827,7 +902,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 63,
               "Title": "CategoryItemVM.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\UniqloMVC\\UniqloMVC5\\UniqloMVC5\\ViewModels\\Category\\CategoryItemVM.cs",
               "RelativeDocumentMoniker": "UniqloMVC5\\ViewModels\\Category\\CategoryItemVM.cs",
@@ -839,7 +914,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 27,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\UniqloMVC\\UniqloMVC5\\UniqloMVC5\\Models\\Product.cs",
               "RelativeDocumentMoniker": "UniqloMVC5\\Models\\Product.cs",
@@ -851,7 +926,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 64,
               "Title": "Update.cshtml",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\UniqloMVC\\UniqloMVC5\\UniqloMVC5\\Areas\\Admin\\Views\\Category\\Update.cshtml",
               "RelativeDocumentMoniker": "UniqloMVC5\\Areas\\Admin\\Views\\Category\\Update.cshtml",
@@ -863,7 +938,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 57,
               "Title": "Update.cshtml",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\UniqloMVC\\UniqloMVC5\\UniqloMVC5\\Areas\\Admin\\Views\\Slider\\Update.cshtml",
               "RelativeDocumentMoniker": "UniqloMVC5\\Areas\\Admin\\Views\\Slider\\Update.cshtml",
@@ -875,7 +950,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 49,
               "Title": "CategoryController.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\UniqloMVC\\UniqloMVC5\\UniqloMVC5\\Areas\\Admin\\Controllers\\CategoryController.cs",
               "RelativeDocumentMoniker": "UniqloMVC5\\Areas\\Admin\\Controllers\\CategoryController.cs",
@@ -887,7 +962,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 44,
               "Title": "ProductController.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\UniqloMVC\\UniqloMVC5\\UniqloMVC5\\Areas\\Admin\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "UniqloMVC5\\Areas\\Admin\\Controllers\\ProductController.cs",
@@ -895,12 +970,11 @@
               "RelativeToolTip": "UniqloMVC5\\Areas\\Admin\\Controllers\\ProductController.cs",
               "ViewState": "AgIAAGIAAAAAAAAAAAD4v3kAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T13:31:52.249Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-03T13:31:52.249Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 5,
               "Title": "UniqloDbContext.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\UniqloMVC\\UniqloMVC5\\UniqloMVC5\\DataAccess\\UniqloDbContext.cs",
               "RelativeDocumentMoniker": "UniqloMVC5\\DataAccess\\UniqloDbContext.cs",
@@ -912,7 +986,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 32,
               "Title": "SliderController.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\UniqloMVC\\UniqloMVC5\\UniqloMVC5\\Areas\\Admin\\Controllers\\SliderController.cs",
               "RelativeDocumentMoniker": "UniqloMVC5\\Areas\\Admin\\Controllers\\SliderController.cs",
@@ -920,12 +994,11 @@
               "RelativeToolTip": "UniqloMVC5\\Areas\\Admin\\Controllers\\SliderController.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAqwB4AAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T13:26:37.258Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-03T13:26:37.258Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 46,
               "Title": "Update.cshtml",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\UniqloMVC\\UniqloMVC5\\UniqloMVC5\\Areas\\Admin\\Views\\Product\\Update.cshtml",
               "RelativeDocumentMoniker": "UniqloMVC5\\Areas\\Admin\\Views\\Product\\Update.cshtml",
@@ -937,7 +1010,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 43,
               "Title": "SliderUpdateVM.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\UniqloMVC\\UniqloMVC5\\UniqloMVC5\\ViewModels\\Slider\\SliderUpdateVM.cs",
               "RelativeDocumentMoniker": "UniqloMVC5\\ViewModels\\Slider\\SliderUpdateVM.cs",
@@ -949,7 +1022,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 62,
               "Title": "CategoryUpdateVM.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\UniqloMVC\\UniqloMVC5\\UniqloMVC5\\ViewModels\\Category\\CategoryUpdateVM.cs",
               "RelativeDocumentMoniker": "UniqloMVC5\\ViewModels\\Category\\CategoryUpdateVM.cs",
@@ -961,7 +1034,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 42,
               "Title": "ProductUpdateVM.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\UniqloMVC\\UniqloMVC5\\UniqloMVC5\\ViewModels\\Product\\ProductUpdateVM.cs",
               "RelativeDocumentMoniker": "UniqloMVC5\\ViewModels\\Product\\ProductUpdateVM.cs",
@@ -973,7 +1046,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 50,
               "Title": "HomeVM.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\UniqloMVC\\UniqloMVC5\\UniqloMVC5\\ViewModels\\Common\\HomeVM.cs",
               "RelativeDocumentMoniker": "UniqloMVC5\\ViewModels\\Common\\HomeVM.cs",
@@ -985,7 +1058,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 35,
               "Title": "ProductItemVM.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\UniqloMVC\\UniqloMVC5\\UniqloMVC5\\ViewModels\\Product\\ProductItemVM.cs",
               "RelativeDocumentMoniker": "UniqloMVC5\\ViewModels\\Product\\ProductItemVM.cs",
@@ -997,7 +1070,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 33,
               "Title": "ProductCreateVM.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\UniqloMVC\\UniqloMVC5\\UniqloMVC5\\ViewModels\\Product\\ProductCreateVM.cs",
               "RelativeDocumentMoniker": "UniqloMVC5\\ViewModels\\Product\\ProductCreateVM.cs",
@@ -1009,7 +1082,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 25,
               "Title": "BaseEntity.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\UniqloMVC\\UniqloMVC5\\UniqloMVC5\\Models\\BaseEntity.cs",
               "RelativeDocumentMoniker": "UniqloMVC5\\Models\\BaseEntity.cs",
@@ -1021,7 +1094,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 29,
               "Title": "Category.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\UniqloMVC\\UniqloMVC5\\UniqloMVC5\\Models\\Category.cs",
               "RelativeDocumentMoniker": "UniqloMVC5\\Models\\Category.cs",

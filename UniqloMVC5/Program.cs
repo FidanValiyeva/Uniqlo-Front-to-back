@@ -49,13 +49,13 @@ namespace UniqloMVC5
             var opt = new SmtpOptions();
             builder.Services.Configure<SmtpOptions>(builder.Configuration.GetSection("Smtp"));
 
-
+            //builder.Services.AddSession();
 
             var app = builder.Build();
             app.UseStaticFiles();
 
             app.UseUserSeed();
-
+            //app.UseSession();
             app.MapControllerRoute(name: "register",
                 pattern: "register",
                 defaults: new { controller = "Account", action = "Register" });

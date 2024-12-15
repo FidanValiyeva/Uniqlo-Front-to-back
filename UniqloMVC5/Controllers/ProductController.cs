@@ -1,17 +1,32 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Security.Claims;
+using System.Text.Json;
+using System.Text.Json.Serialization;
 using UniqloMVC5.DataAccess;
 using UniqloMVC5.Models;
-using UniqloMVC5.ViewModels.Product;
+using UniqloMVC5.ViewModels.Basket;
+using Prod = UniqloMVC5.ViewModels.Product;
 
 namespace UniqloMVC5.Controllers
 {
     public class ProductController(UniqloDbContext _context) : Controller
     {
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            return View();
+
+           return View(await _context.Products.Where(x => !x.IsDeleted).Select(x => new 
+           Prod.ProductItemVM
+            {
+             IsInStock=x.Quantity > 0,            
+             Name=x.Name,
+             ImageUrl=x.CoverImage,
+             SellPrice=x.SellPrice,
+             Id=x.Id,
+
+
+            }).ToListAsync());
+           
         }
         public async Task<IActionResult> Details(int? id)
         {
@@ -66,7 +81,35 @@ namespace UniqloMVC5.Controllers
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Details), new {Id=productId});   
         }
+        public async Task<IActionResult> AddBasket(int Id)
+        {
+            //if(!await _context.Products.AnyAsync(x=>x.Id==Id))
+            //{
+            // return NotFound();  
+            //}
+           
+            var basketItems = JsonSerializer.Deserialize<List<BasketProductItemVM>>(Request.Cookies["Basket"] ?? "[]");
 
+            var item = basketItems.FirstOrDefault(x => x.Id == Id);
+            if(item==null)
+            {
+                item = new BasketProductItemVM(Id);    
+                basketItems.Add(item);
+            }
+            else        
+            item.Count++;
+            Response.Cookies.Append("basket", JsonSerializer.Serialize(basketItems));
+            //object obj = new
+            //{
+            //    Name="ulvi",
+            //    Surname="Abdullazade"
+
+            //};
+
+            //string a =  JsonSerializer.Serialize(obj);
+            //Response.Cookies.Append()
+            return Ok();
+        }
        
        
     }
