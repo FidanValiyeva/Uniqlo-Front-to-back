@@ -34,7 +34,7 @@ namespace UniqloMVC5.Extensions
 
                     };
 
-                    userManager.CreateAsync(user,"123").Wait();
+                    userManager.CreateAsync(user,"admin253admin").Wait();
                     userManager.AddToRoleAsync(user, nameof(Roles.Admin)).Wait();
                 }
 

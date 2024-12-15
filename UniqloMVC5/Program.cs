@@ -1,10 +1,14 @@
 
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
 using UniqloMVC5.DataAccess;
 using UniqloMVC5.Extensions;
+using UniqloMVC5.Helpers;
 using UniqloMVC5.Models;
+using UniqloMVC5.Services.Abstracts;
+using UniqloMVC5.Services.Implements;
 
 namespace UniqloMVC5
 {
@@ -22,12 +26,13 @@ namespace UniqloMVC5
             //builder.Services.AddScoped<UniqloDbContext>();
             builder.Services.AddControllersWithViews();
 
-
+            
 
             builder.Services.AddIdentity<User, IdentityRole>(opt =>
             {
-                opt.Password.RequiredLength = 3;
+               
                 opt.Password.RequireNonAlphanumeric = false;
+                opt.SignIn.RequireConfirmedEmail = true;
                 opt.Password.RequireDigit = false;
                 opt.Password.RequireUppercase = false;
                 opt.Password.RequireLowercase = false;
@@ -40,6 +45,11 @@ namespace UniqloMVC5
                
             });
 
+            builder.Services.AddScoped<IEmailService, EmailService>();
+            var opt = new SmtpOptions();
+            builder.Services.Configure<SmtpOptions>(builder.Configuration.GetSection("Smtp"));
+
+
 
             var app = builder.Build();
             app.UseStaticFiles();
@@ -49,10 +59,7 @@ namespace UniqloMVC5
             app.MapControllerRoute(name: "register",
                 pattern: "register",
                 defaults: new { controller = "Account", action = "Register" });
-
-            
-
-
+          
             app.MapControllerRoute(
                name: "areas",
                pattern: "{area:exists}/{controller=Dashboard}/{action=Index}/{id?}");

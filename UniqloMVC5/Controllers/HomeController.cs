@@ -34,7 +34,8 @@ namespace UniqloMVC5.Controllers
                     Id=x.Id,
                     Name = x.Name,
                     Description = x.Description,
-                   IsInStock=x.Quantity > 0,                                      
+                   IsInStock=x.Quantity > 0,
+                   ImageUrl = x.CoverImage
                 }).ToListAsync();
 
             vm.Categories = await _context.Categories

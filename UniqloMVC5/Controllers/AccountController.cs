@@ -1,15 +1,21 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Options;
+using System.Net;
 using System.Net.Mail;
+using System.Text;
 using UniqloMVC5.Enums;
+using UniqloMVC5.Helpers;
 using UniqloMVC5.Models;
+using UniqloMVC5.Services.Abstracts;
 using UniqloMVC5.ViewModels.Auths;
 
 namespace UniqloMVC5.Controllers
 {
-    public class AccountController(UserManager<User> _userManager,SignInManager<User> _signInManager) : Controller
+    public class AccountController(UserManager<User> _userManager,SignInManager<User> _signInManager,IOptions<SmtpOptions>opts,IEmailService _service) : Controller
     {
+       readonly SmtpOptions _smtpOpt=opts.Value;
         bool isAuthenticated => User.Identity?.IsAuthenticated ?? false;
         public IActionResult Register()
         {
@@ -19,7 +25,7 @@ namespace UniqloMVC5.Controllers
         public async Task<IActionResult> Register(UserCreateVM vm)
         {
             
-            if (ModelState.IsValid)
+            if (!ModelState.IsValid)
             {              
                 return View();
             }             
@@ -34,7 +40,7 @@ namespace UniqloMVC5.Controllers
                
             };
            var result = await _userManager.CreateAsync(user,vm.Password);
-            if (result.Succeeded)
+            if (!result.Succeeded)
             {
                 foreach (var error in result.Errors)
                 {
@@ -53,7 +59,9 @@ namespace UniqloMVC5.Controllers
                 }
                 return View(result);
             }
-            return View();
+            string token =await _userManager.GenerateEmailConfirmationTokenAsync(user);
+            _service.SendEmailConfirmation(user.Email,user.UserName,token);
+            return Content ("Email sent ");
         }
 
        
@@ -67,7 +75,7 @@ namespace UniqloMVC5.Controllers
             if (isAuthenticated)
             { return RedirectToAction("Index", "Home"); }
 
-            if (ModelState.IsValid)
+            if (!ModelState.IsValid)
             {return View();}
             User? user = null;
             if (vm.UsernameorEmail.Contains('@'))
@@ -100,6 +108,7 @@ namespace UniqloMVC5.Controllers
                 }              
 
             }
+            
             if (string.IsNullOrEmpty(returnUrl))
             {
                 if(await _userManager.IsInRoleAsync(user,"Admin"))
@@ -110,6 +119,7 @@ namespace UniqloMVC5.Controllers
                 return RedirectToAction("Index", "Home");
             }
             else
+               
             return LocalRedirect(returnUrl);
         }
         [Authorize]
@@ -118,12 +128,45 @@ namespace UniqloMVC5.Controllers
             await _signInManager.SignOutAsync();
             return RedirectToAction(nameof(Login)); 
         }
-        public async Task<IActionResult> Test()
+        //public async Task<IActionResult> Test()
+        //{
+        //    SmtpClient smtp = new();
+        //    smtp.Host = smtp.Host;
+        //    smtp.Port = smtp.Port;
+        //    smtp.EnableSsl = true;
+        //    smtp.Credentials = new NetworkCredential(_smtpOpt.Username, _smtpOpt.Password );
+        //    MailAddress From = new MailAddress(_smtpOpt.Username, "Səfərbərlik və Hərbi Xidmətə Çağırış üzrə Dövlət Xidməti");
+        //    MailAddress to = new("kxveliyeva@gmail.com");
+        //    MailMessage message = new MailMessage(From,to);
+        //    message.Subject = "Təqaüdün dayandırılması barədə bildiriş";
+        //    message.Body = "Hörmətli Könül Veliyeva,Azərbaycan Respublikası Təhsil Nazirliyinin Təqaüd Proqramları Departamenti tərəfindən aparılmış araşdırmalar nəticəsində məlum olmuşdur ki, sizin tələbə dosyenizdə bəzi uyğunsuzluqlar qeydə alınmışdır." +
+        //        "Bu səbəbdən təqaüd ödənişləriniz 2024-cü il dekabr ayının 16-sı tarixindən etibarən dayandırılmışdır. Müvafiq sənədləri təqdim edərək bu qərarın yenidən baxılması üçün +994508686112 ilə əlaqə saxlamağınız xahiş olunur." +
+        //        "Təqaüdün bərpası ilə bağlı müraciətlər 30-u tarixinədək qəbul edilir. Göstərilən tarixədək lazımi sənədlər təqdim olunmadığı halda, qərar qüvvədə qalacaq.Hörmətlə,Azərbaycan Respublikası Təhsil NazirliyiTəqaüd Proqramları Departament";
+        //    message.IsBodyHtml=true; 
+        //    smtp.Send(message);
+        //    return Ok("oldu");
+
+        //}
+        public async Task<IActionResult> VerifyEmail(string token,string user)
         {
-            SmtpClient smtp = new();
-            smtp.Host = "localhost";
-            return View();
+            var entity =await _userManager.FindByNameAsync(user);
+            if (entity == null)
+            {
+                return BadRequest();
+            }
+           var result= await _userManager.ConfirmEmailAsync(entity,token.Replace(' ','+'));
+            if (!result.Succeeded)
+            {
+                StringBuilder sb = new StringBuilder(); 
+                foreach (var item in result.Errors)
+                { 
+                sb.AppendLine(item.Description); 
+                }
+                return Content(sb.ToString());
+            }
+            await _signInManager.SignInAsync(entity, true);
+            return RedirectToAction("Index","Home");
         }
-            
+
     }
 }

@@ -1,7 +1,8 @@
-﻿@using UniqloMVC5.Models
-@model Product
+﻿@model Product
+
 @{
     ViewData["Title"] = Model.Name;
+    var rating = Model.Ratings.Count > 0 ? Model.Ratings.Average(x => x.Rating) : 0;
 }
 <!-- Start Bradcaump area -->
 <div class="ht__bradcaump__area" style="background: rgba(0, 0, 0, 0) url(images/bg/2.jpg) no-repeat scroll center center / cover ;">
@@ -34,23 +35,25 @@
 
                         <li role="presentation" class="pot-small-img hidden-xs">
                             <a href="#img-tab-3" role="tab" data-bs-toggle="tab">
-                                <img src=~/imgs/products/@Model.CoverImage alt="small-image">
+                                <img src="~/imgs/products/@Model.CoverImage" alt="small-image">
                             </a>
                         </li>
-                        @foreach (var item in Model.Images.Select(x => x.FileUrl) ?? []) 
+                        @foreach (var item in Model.Images?.Select(x => x.FileUrl) ?? []) 
                         {
+
                             <li role="presentation" class="pot-small-img hidden-xs">
                                 <a href="#img-tab" role="tab" data-bs-toggle="tab">
-                                    <img src=~/imgs/products/@item alt="small-image">
+                                    <img width="100px" src="~/imgs/products/@item" alt="small-image">
                                 </a>
                             </li>
+
                         }                      
                     </ul>
                     <!-- End Small images -->
                     <div class="product__big__images">
                         <div class="portfolio-full-image tab-content">
                             <div role="tabpanel" class="tab-pane active" >
-                                <img src=~/imgs/products/@Model.CoverImage alt="small-image">
+                                <img width="360px" src="~/imgs/products/@Model.CoverImage" alt=" small-image">
                             </div>
 
                         </div>
@@ -62,15 +65,24 @@
                     <div class="pro__detl__title">
                         <h2>@Model.Name</h2>
                     </div>
-                    <div class="pro__dtl__rating">
+                    @if(User.Identity.IsAuthenticated)
+                    {
+                        <form asp-action="Rating" method="get">
+                            <input name="productId" value="@Model.Id type="hidden" />
+                            <input name="rating" value="5" type="number" min="1" max="5" />
+                            <button class="btn">Rate</button>
+                        </form>
+
+                    }
+                    <div class="pro__dtl__rating">                                             
                         <ul class="pro__rating">
-                            <li><span class="ti-star"></span></li>
-                            <li><span class="ti-star"></span></li>
-                            <li><span class="ti-star"></span></li>
-                            <li><span class="ti-star"></span></li>
-                            <li><span class="ti-star"></span></li>
+                            @for (int i= 0;i < Math.Ceiling(rating);i++)
+                            {
+                                <li><span class="ti-star"></span></li>
+                            }
+                            (@rating)
                         </ul>
-                        <span class="rat__qun">(Based on 0 Ratings)</span>
+                        <span class="rat__qun">(Based on @Model.Ratings.Count Ratings)</span>
                     </div>
                     <div class="pro__details">
                         <p>@Model.Description </p>
@@ -89,7 +101,8 @@
                     </ul>
                     
                    
-                   @*  <div class="product-action-wrap">
+
+                     <div class="product-action-wrap">
                         <div class="prodict-statas"><span>Quantity :</span></div>
                         <div class="product-quantity">
                             <form id='myform' method='POST' action='#'>
@@ -114,7 +127,9 @@
                             <li><a href="https://www.facebook.com/devitems/?ref=bookmarks" target="_blank"><i class="zmdi zmdi-facebook"></i></a></li>
                             <li><a href="https://plus.google.com/" target="_blank"><i class="zmdi zmdi-google-plus"></i></a></li>
                         </ul>
-                    </div> *@
+                    </div> 
+
+
 
                 </div>
             </div>
@@ -305,3 +320,11 @@
     </div>
 </section>
 <!-- End Product tab -->
+@section scripts{
+    <script>
+        $(".product_small_images img").click(function(){
+            alert();
+            $(".product_big_images img").attr("src",$(this).attr("src"))
+        })
+    </script>
+}
