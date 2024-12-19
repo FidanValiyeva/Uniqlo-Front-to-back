@@ -11,6 +11,7 @@ namespace UniqloMVC5.ViewModels.Product
         public int DisCount {  get; set; }
         public bool IsInStock {  get; set; }
         public string ImageUrl {  get; set; }
+        public int Count {  get; set; }
 
     }
 }

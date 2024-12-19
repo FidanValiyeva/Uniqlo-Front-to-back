@@ -1,5 +1,4 @@
 ﻿@model Product
-
 @{
     ViewData["Title"] = Model.Name;
     var rating = Model.Ratings.Count > 0 ? Model.Ratings.Average(x => x.Rating) : 0;

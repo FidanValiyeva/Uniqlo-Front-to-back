@@ -1,5 +1,6 @@
-﻿ @using UniqloMVC5.ViewModels.Basket
- @model List<ProductItemVM>
+﻿ 
+ @using UniqloMVC5.ViewModels;
+ @model IEnumerable<ProductItemVM>
 
 
 <!-- Body main wrapper start -->
@@ -97,10 +98,10 @@
                             </div>
                             <div class="shp__pro__details">
                                 <h2><a href="product-details.html">@item.Name</a></h2>
-                                <span class="quantity">@item.Count</span>
-                                @if (item.Discount>0)
+                                <span class="quantity">@item.DisCount</span>
+                                @if (item.DisCount>0)
                                 {
-                                    <span class="shp__price">$@((100-item.Discount)*item.SellPrice)</span>
+                                    <span class="shp__price">$@((100-item.DisCount)*item.SellPrice)</span>
                                 }
                                 else
                                 {
@@ -114,7 +115,7 @@
                         </div>
                     }
                    
-                    <div class="shp__single__product">
+                   @*  <div class="shp__single__product">
                         <div class="shp__pro__thumb">
                             <a href="#">
                                 <img src="~/assets/images/product/sm-img/2.jpg" alt="product images">
@@ -143,3 +144,4 @@
         <!-- End Cart Panel -->
     </div>
     <!-- End Offset Wrapper -->
+ *@

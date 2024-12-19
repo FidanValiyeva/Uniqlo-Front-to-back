@@ -3,6 +3,6 @@
     public interface IEmailService
     {
        void SendEmailConfirmation(string? email, string userName, string token);
-       void SendEmailConfirmationAsync(string reciever,string name,string token );
+        //void SendEmailConfirmationAsync(string reciever,string name,string token );
     }
 }

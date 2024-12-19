@@ -6,7 +6,7 @@ using UniqloMVC5.Services.Abstracts;
 
 namespace UniqloMVC5.Services.Implements
 {
-    public class EmailService :IEmailService
+    public class EmailService : IEmailService
     {
         readonly SmtpClient _client;
         readonly MailAddress _from;
@@ -23,14 +23,15 @@ namespace UniqloMVC5.Services.Implements
             Context = acc.HttpContext;
         }
 
-        public void SendEmailConfirmationAsync(string? reciever, string name, string token)
+        public void SendEmailConfirmation(string? reciever, string name, string token)
         {
            MailAddress to = new(reciever);
            MailMessage msg = new MailMessage(_from,to);
+
             msg.IsBodyHtml = true;
             msg.Subject = "Confirm your email address";
             string Url = Context.Request.Scheme + "://" + Context.Request.Host + "/Account/" +
-               "VerifyEmail?token=" + token+"&user="+name;           
+             "VerifyEmail?token=" + token+"&user="+name;           
             msg.Body = EmailTemplates.VerifyEmail.Replace("__$name", name).Replace("__$link", Url);          
              _client.Send(msg);
 

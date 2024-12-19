@@ -1,0 +1,65 @@
+﻿
+@using UniqloMVC5.ViewModels.Product
+@model IEnumerable<ProductItemVM>
+@foreach(var item in Model)		
+{
+    <div class="single__pro cat--3">
+        <div class="product">
+            <div class="product__inner">
+                <div class="pro__thumb">
+                    <a href="#">
+                        <img src="~/imgs/products/" alt="product images">
+                    </a>
+                </div>
+                <div class="popular__product__hover__info">
+                    <ul class="product__action">
+                        <li><a title="Add To Wishlist" href="wishlist.html"><span class="ti-heart"></span></a></li>
+                        <li><a data-bs-toggle="modal" data-bs-target="#productModal" title="Quick View" class="quick-view modal-view detail-link" href="#"><span class="ti-plus"></span></a></li>
+                        <li><a title="Add To Cart" ><span class="ti-shopping-cart"></span></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="product__details">
+                <!-- Start Single Product -->
+                <div class="single__pro cat--2 cat--4">
+                    <div class="product">
+                        <div class="product__inner">
+                            <div class="pro__thumb">
+                                <a asp-action="Details" asp-controller="Product" asp-route-id="@item.Id">
+                                    <img src="~/imgs/products/@item.ImageUrl" alt="product images">
+                                </a>
+                            </div>
+                            <div class="popular__product__hover__info">
+                                <ul class="product__action">
+
+
+
+
+                                    <li prod-id="@item.Id" class=" add-cart"><span class="ti-shopping-cart"></span></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="product__details">
+                            <h2><a asp-action="Details" asp-controller="Product" asp-route-id="@item.Id">@item.Name</a></h2>
+                            @if (item.IsInStock)
+                            {
+
+                                if (item.DisCount > 0)
+                                {
+                                    <span class="text-danger">$@(item.SellPrice - item.SellPrice * item.DisCount / 100)</span>
+                                }
+
+                                else
+                                {
+                                    <span class="text-danger">$@item.SellPrice</span>
+                                }
+
+                            }
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}

@@ -6,6 +6,8 @@ using System.Text.Json.Serialization;
 using UniqloMVC5.DataAccess;
 using UniqloMVC5.Models;
 using UniqloMVC5.ViewModels.Basket;
+using UniqloMVC5.ViewModels.Product;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 using Prod = UniqloMVC5.ViewModels.Product;
 
 namespace UniqloMVC5.Controllers
@@ -14,19 +16,51 @@ namespace UniqloMVC5.Controllers
     {
         public async Task<IActionResult> Index()
         {
+            IQueryable<Product> query = _context.Products.Where(x => x.IsDeleted);
+            ProductIndexVM vm = new ProductIndexVM
 
-           return View(await _context.Products.Where(x => !x.IsDeleted).Select(x => new 
-           Prod.ProductItemVM
             {
-             IsInStock=x.Quantity > 0,            
-             Name=x.Name,
-             ImageUrl=x.CoverImage,
-             SellPrice=x.SellPrice,
-             Id=x.Id,
+                Products = await query.Select(x => new Prod.ProductItemVM
+                {
+                    IsInStock = x.Quantity > 0,
+                    Name = x.Name,
+                    ImageUrl = x.CoverImage,
+                    SellPrice = x.SellPrice,
+                    Id = x.Id,
+                }).ToListAsync(),
+                Categories = [new CategoryAndCount { Id = 0, Count = await query.CountAsync(), Name = "All" }]
+            };
+
+            var cats = await _context.Categories.Where(x => !x.IsDeleted).Select(x => new
+            CategoryAndCount
+            {
+                Name = x.Name,
+                Id = x.Id,
+                Count = x.Products.Count(),
 
 
-            }).ToListAsync());
-           
+            }).ToListAsync();
+            NewMethod(vm, cats);
+            ViewBag.ProductCount = await query.CountAsync();
+            return View(vm);
+
+            static void NewMethod(ProductIndexVM vm, List<CategoryAndCount> cats)
+            {
+                vm.Categories.AddRange(cats);
+            }
+        }
+        public async Task<IActionResult> Filter(int? catId = 0, int? minPrice = 10,int maxPrice=400)
+        {
+            if (!catId.HasValue)
+            {
+                return BadRequest();
+            }
+            var query = _context.Products.Where(x => !x.IsDeleted && x.SellPrice >= minPrice && x.SellPrice <= maxPrice);
+            if(catId != 0 )
+            {
+               query=query.Where(x=>x.CategoryId==catId);
+            }
+            return PartialView("_ProductPartial",await query.ToListAsync());
         }
         public async Task<IActionResult> Details(int? id)
         {

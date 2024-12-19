@@ -254,6 +254,9 @@ namespace UniqloMVC5.Migrations
                     b.Property<decimal>("CostPrice")
                         .HasColumnType("decimal(18,2)");
 
+                    b.Property<int>("Count")
+                        .HasColumnType("int");
+
                     b.Property<string>("CoverImage")
                         .HasColumnType("nvarchar(max)");
 
@@ -560,7 +563,7 @@ namespace UniqloMVC5.Migrations
             modelBuilder.Entity("UniqloMVC5.Models.Product", b =>
                 {
                     b.HasOne("UniqloMVC5.Models.Category", "Category")
-                        .WithMany()
+                        .WithMany("Products")
                         .HasForeignKey("CategoryId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -594,6 +597,11 @@ namespace UniqloMVC5.Migrations
                     b.Navigation("Product");
 
                     b.Navigation("User");
+                });
+
+            modelBuilder.Entity("UniqloMVC5.Models.Category", b =>
+                {
+                    b.Navigation("Products");
                 });
 
             modelBuilder.Entity("UniqloMVC5.Models.Comment", b =>

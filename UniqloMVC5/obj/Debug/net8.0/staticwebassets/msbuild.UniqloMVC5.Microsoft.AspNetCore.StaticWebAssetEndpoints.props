@@ -24852,17 +24852,17 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"lu0nrhnrcz"},{"Name":"integrity","Value":"sha256-DXOcPCs\u002BF9Bzpl8TgehGf9cxtjdaPp57xJSEbfX7MmI="},{"Name":"label","Value":"_content/UniqloMVC5/assets/js/bootstrap.bundle.min.js"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"80371"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022DXOcPCs\u002BF9Bzpl8TgehGf9cxtjdaPp57xJSEbfX7MmI=\u0022"},{"Name":"Last-Modified","Value":"Thu, 21 Nov 2024 21:33:59 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/UniqloMVC5/assets/js/main.hvagvqmzpg.js">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\js\main.js'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"hvagvqmzpg"},{"Name":"integrity","Value":"sha256-DeLRnDdM\u002BTh1U/oz5YVA4wOUtHdCeMhScFLJR6p\u002BCRE="},{"Name":"label","Value":"_content/UniqloMVC5/assets/js/main.js"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"11195"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022DeLRnDdM\u002BTh1U/oz5YVA4wOUtHdCeMhScFLJR6p\u002BCRE=\u0022"},{"Name":"Last-Modified","Value":"Thu, 21 Nov 2024 21:33:59 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/UniqloMVC5/assets/js/main.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\js\main.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-DeLRnDdM\u002BTh1U/oz5YVA4wOUtHdCeMhScFLJR6p\u002BCRE="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"11195"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022DeLRnDdM\u002BTh1U/oz5YVA4wOUtHdCeMhScFLJR6p\u002BCRE=\u0022"},{"Name":"Last-Modified","Value":"Thu, 21 Nov 2024 21:33:59 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-JB7vlxQniU2hl4HlG5ZSJd3/DWJ\u002BKJZhsQ0UZe1cAfo="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"10839"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022JB7vlxQniU2hl4HlG5ZSJd3/DWJ\u002BKJZhsQ0UZe1cAfo=\u0022"},{"Name":"Last-Modified","Value":"Wed, 18 Dec 2024 10:12:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/UniqloMVC5/assets/js/main.kauaiajhhw.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\js\main.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"kauaiajhhw"},{"Name":"integrity","Value":"sha256-JB7vlxQniU2hl4HlG5ZSJd3/DWJ\u002BKJZhsQ0UZe1cAfo="},{"Name":"label","Value":"_content/UniqloMVC5/assets/js/main.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"10839"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022JB7vlxQniU2hl4HlG5ZSJd3/DWJ\u002BKJZhsQ0UZe1cAfo=\u0022"},{"Name":"Last-Modified","Value":"Wed, 18 Dec 2024 10:12:45 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/UniqloMVC5/assets/js/owl.carousel.min.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\js\owl.carousel.min.js'))</AssetFile>
